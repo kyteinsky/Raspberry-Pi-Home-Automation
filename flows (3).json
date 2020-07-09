@@ -1,0 +1,1007 @@
+[
+	{
+		"id": "3bc0be6c.333b82",
+		"type": "tab",
+		"label": "Control",
+		"disabled": false,
+		"info": ""
+	},
+	{
+		"id": "d1609ab.9becb68",
+		"type": "tab",
+		"label": "Bluetooth",
+		"disabled": false,
+		"info": ""
+	},
+	{
+		"id": "37f2c054.c8456",
+		"type": "tab",
+		"label": "PassThrough",
+		"disabled": false,
+		"info": ""
+	},
+	{
+		"id": "6bf81a84.1075a4",
+		"type": "ui_group",
+		"z": "",
+		"name": "Switches",
+		"tab": "cf0f9343.5ae43",
+		"order": 1,
+		"disp": true,
+		"width": "6",
+		"collapse": false
+	},
+	{
+		"id": "9a0546c1.a9e7b8",
+		"type": "ui_base",
+		"theme": {
+			"name": "theme-light",
+			"lightTheme": {
+				"default": "#0094CE",
+				"baseColor": "#0094CE",
+				"baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+				"edited": true,
+				"reset": false
+			},
+			"darkTheme": {
+				"default": "#097479",
+				"baseColor": "#097479",
+				"baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+				"edited": true,
+				"reset": false
+			},
+			"customTheme": {
+				"name": "Untitled Theme 1",
+				"default": "#4B7930",
+				"baseColor": "#4B7930",
+				"baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+			},
+			"themeState": {
+				"base-color": {
+					"default": "#0094CE",
+					"value": "#0094CE",
+					"edited": false
+				},
+				"page-titlebar-backgroundColor": {
+					"value": "#0094CE",
+					"edited": false
+				},
+				"page-backgroundColor": {
+					"value": "#fafafa",
+					"edited": false
+				},
+				"page-sidebar-backgroundColor": {
+					"value": "#ffffff",
+					"edited": false
+				},
+				"group-textColor": {
+					"value": "#1bbfff",
+					"edited": false
+				},
+				"group-borderColor": {
+					"value": "#ffffff",
+					"edited": false
+				},
+				"group-backgroundColor": {
+					"value": "#ffffff",
+					"edited": false
+				},
+				"widget-textColor": {
+					"value": "#111111",
+					"edited": false
+				},
+				"widget-backgroundColor": {
+					"value": "#0094ce",
+					"edited": false
+				},
+				"widget-borderColor": {
+					"value": "#ffffff",
+					"edited": false
+				},
+				"base-font": {
+					"value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+				}
+			},
+			"angularTheme": {
+				"primary": "indigo",
+				"accents": "blue",
+				"warn": "red",
+				"background": "grey"
+			}
+		},
+		"site": {
+			"name": "Node-RED Dashboard",
+			"hideToolbar": "false",
+			"allowSwipe": "false",
+			"lockMenu": "false",
+			"allowTempTheme": "true",
+			"dateFormat": "DD/MM/YYYY",
+			"sizes": {
+				"sx": 48,
+				"sy": 48,
+				"gx": 6,
+				"gy": 6,
+				"cx": 6,
+				"cy": 6,
+				"px": 0,
+				"py": 0
+			}
+		}
+	},
+	{
+		"id": "cf0f9343.5ae43",
+		"type": "ui_tab",
+		"z": "",
+		"name": "Home",
+		"icon": "dashboard",
+		"disabled": false,
+		"hidden": false
+	},
+	{
+		"id": "1f11b319.0b23ed",
+		"type": "ui_group",
+		"z": "",
+		"name": "Pass Through",
+		"tab": "4e5a7faa.49411",
+		"order": 2,
+		"disp": true,
+		"width": "6",
+		"collapse": false
+	},
+	{
+		"id": "60777158.d54f2",
+		"type": "mqtt-broker",
+		"z": "",
+		"name": "test",
+		"broker": "localhost",
+		"port": "1883",
+		"clientid": "",
+		"usetls": false,
+		"compatmode": false,
+		"keepalive": "60",
+		"cleansession": true,
+		"birthTopic": "",
+		"birthQos": "0",
+		"birthPayload": "",
+		"closeTopic": "",
+		"closeQos": "0",
+		"closePayload": "",
+		"willTopic": "",
+		"willQos": "0",
+		"willPayload": ""
+	},
+	{
+		"id": "39e30d3f.1ca9c2",
+		"type": "ui_group",
+		"z": "",
+		"name": "Control",
+		"tab": "cf0f9343.5ae43",
+		"order": 3,
+		"disp": true,
+		"width": "6",
+		"collapse": false
+	},
+	{
+		"id": "291836c9.37284a",
+		"type": "ui_group",
+		"z": "",
+		"name": "Bluetooth Music",
+		"tab": "89b83e4e.d524f",
+		"order": 4,
+		"disp": true,
+		"width": "6",
+		"collapse": false
+	},
+	{
+		"id": "89b83e4e.d524f",
+		"type": "ui_tab",
+		"z": "",
+		"name": "Bluetooth",
+		"icon": "dashboard",
+		"order": 2,
+		"disabled": false,
+		"hidden": false
+	},
+	{
+		"id": "4e5a7faa.49411",
+		"type": "ui_tab",
+		"z": "",
+		"name": "Passthrough",
+		"icon": "dashboard",
+		"order": 3,
+		"disabled": false,
+		"hidden": false
+	},
+	{
+		"id": "91707366.6fcc8",
+		"type": "google-cloud-credentials",
+		"z": "",
+		"name": "node"
+	},
+	{
+		"id": "2fa4b864.39d5d8",
+		"type": "speaker out",
+		"z": "37f2c054.c8456",
+		"name": "Speaker Out",
+		"channels": "1",
+		"bitDepth": "16",
+		"sampleRate": "44100",
+		"x": 850,
+		"y": 180,
+		"wires": []
+	},
+	{
+		"id": "e66f9f74.2df5f",
+		"type": "ui_microphone",
+		"z": "37f2c054.c8456",
+		"group": "1f11b319.0b23ed",
+		"order": 1,
+		"width": 6,
+		"height": "1",
+		"name": "pass-microphone",
+		"maxLength": "10",
+		"timeslice": 0,
+		"x": 380,
+		"y": 180,
+		"wires": [
+			[
+				"53cfed62.59df44",
+				"dc6d266.6d27fd8"
+			]
+		]
+	},
+	{
+		"id": "4f31d67c.7beda8",
+		"type": "file",
+		"z": "37f2c054.c8456",
+		"name": "audio file",
+		"filename": "",
+		"appendNewline": false,
+		"createDir": true,
+		"overwriteFile": "false",
+		"encoding": "none",
+		"x": 860,
+		"y": 240,
+		"wires": [
+			[]
+		]
+	},
+	{
+		"id": "53cfed62.59df44",
+		"type": "function",
+		"z": "37f2c054.c8456",
+		"name": "filename",
+		"func": "const fs = global.get('fs')\nlet hash = global.get('hash')\n\nconst filename_size = 12\nlet filename = \"/home/pi/audio/\" + hash.c(filename_size) + \".wav\"\n\nfs.access(filename, (err) => {\n    if (!err) {\n        console.log(\"The file \"+filename+\" exists.\")\n        filename = hash.c(filename_size) + \".wav\"\n    }\n});\nreturn {\"filename\" : filename, \"payload\" : msg.payload}\n",
+		"outputs": 1,
+		"noerr": 0,
+		"initialize": "",
+		"finalize": "",
+		"x": 640,
+		"y": 240,
+		"wires": [
+			[
+				"4f31d67c.7beda8"
+			]
+		]
+	},
+	{
+		"id": "dc6d266.6d27fd8",
+		"type": "change",
+		"z": "37f2c054.c8456",
+		"name": "msg.speech",
+		"rules": [
+			{
+				"t": "move",
+				"p": "payload",
+				"pt": "msg",
+				"to": "speech",
+				"tot": "msg"
+			}
+		],
+		"action": "",
+		"property": "",
+		"from": "",
+		"to": "",
+		"reg": false,
+		"x": 630,
+		"y": 180,
+		"wires": [
+			[
+				"2fa4b864.39d5d8"
+			]
+		]
+	},
+	{
+		"id": "8cf0d50.50b4528",
+		"type": "ui_microphone",
+		"z": "3bc0be6c.333b82",
+		"group": "39e30d3f.1ca9c2",
+		"order": 0,
+		"width": 0,
+		"height": 0,
+		"name": "control-mic",
+		"maxLength": 5,
+		"timeslice": 0,
+		"x": 100,
+		"y": 340,
+		"wires": [
+			[
+				"b350010b.48a4a",
+				"a637fef.07ace"
+			]
+		]
+	},
+	{
+		"id": "f2754cbd.790d",
+		"type": "ui_button",
+		"z": "d1609ab.9becb68",
+		"name": "bluetooth trigger",
+		"group": "291836c9.37284a",
+		"order": 0,
+		"width": 0,
+		"height": 0,
+		"passthru": false,
+		"label": "Pair Device",
+		"tooltip": "",
+		"color": "",
+		"bgcolor": "",
+		"icon": "",
+		"payload": "",
+		"payloadType": "str",
+		"topic": "",
+		"x": 320,
+		"y": 300,
+		"wires": [
+			[
+				"a2d3c987.d14a08"
+			]
+		]
+	},
+	{
+		"id": "a2d3c987.d14a08",
+		"type": "exec",
+		"z": "d1609ab.9becb68",
+		"command": "bash /home/pi/bluetooth/pair_and_trust_bluetooth_device.sh",
+		"addpay": true,
+		"append": "",
+		"useSpawn": "true",
+		"timer": "30",
+		"oldrc": false,
+		"name": "pair",
+		"x": 490,
+		"y": 300,
+		"wires": [
+			[
+				"b44acbca.248248",
+				"e86db3fe.0107f"
+			],
+			[
+				"b44acbca.248248",
+				"e86db3fe.0107f"
+			],
+			[
+				"b44acbca.248248",
+				"e86db3fe.0107f"
+			]
+		]
+	},
+	{
+		"id": "b44acbca.248248",
+		"type": "ui_text",
+		"z": "d1609ab.9becb68",
+		"group": "291836c9.37284a",
+		"order": 1,
+		"width": 0,
+		"height": 0,
+		"name": "output",
+		"label": "Output",
+		"format": "{{msg.payload}}",
+		"layout": "row-spread",
+		"x": 690,
+		"y": 300,
+		"wires": []
+	},
+	{
+		"id": "e86db3fe.0107f",
+		"type": "debug",
+		"z": "d1609ab.9becb68",
+		"name": "",
+		"active": true,
+		"tosidebar": true,
+		"console": false,
+		"tostatus": false,
+		"complete": "false",
+		"statusVal": "",
+		"statusType": "auto",
+		"x": 700,
+		"y": 220,
+		"wires": []
+	},
+	{
+		"id": "f0793b58.cc6148",
+		"type": "comment",
+		"z": "d1609ab.9becb68",
+		"name": "bluetooth pairing",
+		"info": "",
+		"x": 370,
+		"y": 220,
+		"wires": []
+	},
+	{
+		"id": "cc51507e.98bf8",
+		"type": "comment",
+		"z": "37f2c054.c8456",
+		"name": "Mic audio passthrough",
+		"info": "",
+		"x": 400,
+		"y": 120,
+		"wires": []
+	},
+	{
+		"id": "fbb95c9f.5d8e7",
+		"type": "comment",
+		"z": "3bc0be6c.333b82",
+		"name": "Voice control Google Cloud API",
+		"info": "",
+		"x": 350,
+		"y": 320,
+		"wires": []
+	},
+	{
+		"id": "aef81a17.628df8",
+		"type": "exec",
+		"z": "3bc0be6c.333b82",
+		"d": true,
+		"command": "/home/pi/.local/bin/deepspeech --model /home/pi/deepspeech/deepspeech-0.7.4-models.tflite --scorer /home/pi/deepspeech/deepspeech-0.7.4-models.scorer --audio ",
+		"addpay": true,
+		"append": "",
+		"useSpawn": "true",
+		"timer": "",
+		"oldrc": false,
+		"name": "deepspeech",
+		"x": 810,
+		"y": 320,
+		"wires": [
+			[
+				"5279b558.32ed7c"
+			],
+			[],
+			[]
+		]
+	},
+	{
+		"id": "f673e22b.a4183",
+		"type": "file",
+		"z": "3bc0be6c.333b82",
+		"d": true,
+		"name": "audio file",
+		"filename": "",
+		"appendNewline": false,
+		"createDir": true,
+		"overwriteFile": "false",
+		"encoding": "none",
+		"x": 700,
+		"y": 200,
+		"wires": [
+			[]
+		]
+	},
+	{
+		"id": "be82bbde.f8cb78",
+		"type": "function",
+		"z": "3bc0be6c.333b82",
+		"d": true,
+		"name": "filename",
+		"func": "const fs = global.get('fs')\nlet hash = global.get('hash')\n\nconst filename_size = 12\nlet filename = \"/home/pi/deepspeech/\" + hash.c(filename_size) + \".wav\"\n\nfs.access(filename, (err) => {\n    if (!err) {\n        console.log(\"The file \"+filename+\" exists.\")\n        filename = hash.c(filename_size) + \".wav\"\n    }\n});\nreturn {\"filename\" : filename, \"payload\" : msg.payload}\n",
+		"outputs": 1,
+		"noerr": 0,
+		"initialize": "",
+		"finalize": "",
+		"x": 400,
+		"y": 200,
+		"wires": [
+			[
+				"f673e22b.a4183",
+				"58035c2d.327c94"
+			]
+		]
+	},
+	{
+		"id": "58035c2d.327c94",
+		"type": "function",
+		"z": "3bc0be6c.333b82",
+		"d": true,
+		"name": "msg.payload",
+		"func": "\nreturn {\"payload\" : msg.filename};",
+		"outputs": 1,
+		"noerr": 0,
+		"initialize": "",
+		"finalize": "",
+		"x": 610,
+		"y": 260,
+		"wires": [
+			[
+				"aef81a17.628df8"
+			]
+		]
+	},
+	{
+		"id": "5dcfe1b0.bb518",
+		"type": "exec",
+		"z": "3bc0be6c.333b82",
+		"d": true,
+		"command": "sudo invoke-rc.d bluetooth restart",
+		"addpay": false,
+		"append": "",
+		"useSpawn": "false",
+		"timer": "",
+		"oldrc": false,
+		"name": "start bluetooth",
+		"x": 1020,
+		"y": 80,
+		"wires": [
+			[
+				"d616138d.83882"
+			],
+			[
+				"d616138d.83882"
+			],
+			[
+				"d616138d.83882"
+			]
+		]
+	},
+	{
+		"id": "d616138d.83882",
+		"type": "debug",
+		"z": "3bc0be6c.333b82",
+		"d": true,
+		"name": "",
+		"active": false,
+		"tosidebar": true,
+		"console": false,
+		"tostatus": false,
+		"complete": "true",
+		"targetType": "full",
+		"statusVal": "",
+		"statusType": "auto",
+		"x": 1210,
+		"y": 80,
+		"wires": []
+	},
+	{
+		"id": "5279b558.32ed7c",
+		"type": "debug",
+		"z": "3bc0be6c.333b82",
+		"d": true,
+		"name": "",
+		"active": true,
+		"tosidebar": true,
+		"console": false,
+		"tostatus": false,
+		"complete": "payload",
+		"targetType": "msg",
+		"statusVal": "",
+		"statusType": "auto",
+		"x": 1010,
+		"y": 200,
+		"wires": []
+	},
+	{
+		"id": "3232aa96.097556",
+		"type": "rpi-gpio out",
+		"z": "3bc0be6c.333b82",
+		"name": "fan",
+		"pin": "31",
+		"set": true,
+		"level": "0",
+		"freq": "",
+		"out": "out",
+		"x": 1470,
+		"y": 540,
+		"wires": []
+	},
+	{
+		"id": "f110f36f.498f2",
+		"type": "rpi-gpio out",
+		"z": "3bc0be6c.333b82",
+		"name": "tube",
+		"pin": "33",
+		"set": true,
+		"level": "0",
+		"freq": "",
+		"out": "out",
+		"x": 1470,
+		"y": 600,
+		"wires": []
+	},
+	{
+		"id": "333877e1.0166e8",
+		"type": "rpi-gpio out",
+		"z": "3bc0be6c.333b82",
+		"name": "router",
+		"pin": "35",
+		"set": true,
+		"level": "1",
+		"freq": "",
+		"out": "out",
+		"x": 1470,
+		"y": 660,
+		"wires": []
+	},
+	{
+		"id": "5f89913b.e35fc",
+		"type": "rpi-gpio out",
+		"z": "3bc0be6c.333b82",
+		"name": "raspberry",
+		"pin": "37",
+		"set": true,
+		"level": "1",
+		"freq": "",
+		"out": "out",
+		"x": 1480,
+		"y": 720,
+		"wires": []
+	},
+	{
+		"id": "377e3cb8.685a04",
+		"type": "ui_switch",
+		"z": "3bc0be6c.333b82",
+		"name": "fan",
+		"label": "fan",
+		"tooltip": "",
+		"group": "6bf81a84.1075a4",
+		"order": 2,
+		"width": 0,
+		"height": 0,
+		"passthru": true,
+		"decouple": "false",
+		"topic": "",
+		"style": "",
+		"onvalue": "1",
+		"onvalueType": "str",
+		"onicon": "",
+		"oncolor": "",
+		"offvalue": "0",
+		"offvalueType": "str",
+		"officon": "",
+		"offcolor": "",
+		"x": 1270,
+		"y": 520,
+		"wires": [
+			[
+				"3232aa96.097556"
+			]
+		]
+	},
+	{
+		"id": "40a8f851.7e1a58",
+		"type": "ui_switch",
+		"z": "3bc0be6c.333b82",
+		"name": "tube",
+		"label": "tube",
+		"tooltip": "",
+		"group": "6bf81a84.1075a4",
+		"order": 1,
+		"width": 0,
+		"height": 0,
+		"passthru": true,
+		"decouple": "false",
+		"topic": "",
+		"style": "",
+		"onvalue": "1",
+		"onvalueType": "str",
+		"onicon": "",
+		"oncolor": "",
+		"offvalue": "0",
+		"offvalueType": "str",
+		"officon": "",
+		"offcolor": "",
+		"x": 1270,
+		"y": 580,
+		"wires": [
+			[
+				"f110f36f.498f2"
+			]
+		]
+	},
+	{
+		"id": "36bbaa83.a3ef86",
+		"type": "ui_switch",
+		"z": "3bc0be6c.333b82",
+		"name": "router",
+		"label": "router",
+		"tooltip": "",
+		"group": "6bf81a84.1075a4",
+		"order": 2,
+		"width": 0,
+		"height": 0,
+		"passthru": true,
+		"decouple": "false",
+		"topic": "",
+		"style": "",
+		"onvalue": "1",
+		"onvalueType": "str",
+		"onicon": "",
+		"oncolor": "",
+		"offvalue": "0",
+		"offvalueType": "str",
+		"officon": "",
+		"offcolor": "",
+		"x": 1270,
+		"y": 640,
+		"wires": [
+			[
+				"333877e1.0166e8"
+			]
+		]
+	},
+	{
+		"id": "e0a39d2d.81465",
+		"type": "ui_switch",
+		"z": "3bc0be6c.333b82",
+		"name": "raspberry",
+		"label": "raspberry",
+		"tooltip": "",
+		"group": "6bf81a84.1075a4",
+		"order": 3,
+		"width": 0,
+		"height": 0,
+		"passthru": true,
+		"decouple": "false",
+		"topic": "",
+		"style": "",
+		"onvalue": "1",
+		"onvalueType": "str",
+		"onicon": "",
+		"oncolor": "",
+		"offvalue": "0",
+		"offvalueType": "str",
+		"officon": "",
+		"offcolor": "",
+		"x": 1280,
+		"y": 700,
+		"wires": [
+			[
+				"5f89913b.e35fc"
+			]
+		]
+	},
+	{
+		"id": "8c7568b5.4df2e8",
+		"type": "comment",
+		"z": "3bc0be6c.333b82",
+		"name": "Control GPIOs",
+		"info": "",
+		"x": 1380,
+		"y": 460,
+		"wires": []
+	},
+	{
+		"id": "c4d79182.5ec8c",
+		"type": "debug",
+		"z": "3bc0be6c.333b82",
+		"name": "print",
+		"active": false,
+		"tosidebar": true,
+		"console": false,
+		"tostatus": false,
+		"complete": "payload.results[0].alternatives[0].transcript",
+		"targetType": "msg",
+		"statusVal": "",
+		"statusType": "auto",
+		"x": 630,
+		"y": 660,
+		"wires": []
+	},
+	{
+		"id": "60438bc3.859c64",
+		"type": "google-cloud-speech-to-text",
+		"z": "3bc0be6c.333b82",
+		"account": "91707366.6fcc8",
+		"keyFilename": "",
+		"name": "",
+		"sampleRate": "44000",
+		"encoding": "LINEAR16",
+		"languageCode": "en-UK",
+		"x": 430,
+		"y": 620,
+		"wires": [
+			[
+				"c4d79182.5ec8c",
+				"74a4c3fd.82a7cc",
+				"25787ea2.84c0e2"
+			]
+		]
+	},
+	{
+		"id": "a637fef.07ace",
+		"type": "wav-headers",
+		"z": "3bc0be6c.333b82",
+		"name": "",
+		"action": "del",
+		"channels": 1,
+		"samplerate": 22050,
+		"bitwidth": 16,
+		"x": 200,
+		"y": 440,
+		"wires": [
+			[
+				"5d240a64.f47344"
+			],
+			[]
+		]
+	},
+	{
+		"id": "5d240a64.f47344",
+		"type": "wav-headers",
+		"z": "3bc0be6c.333b82",
+		"name": "",
+		"action": "add",
+		"channels": 1,
+		"samplerate": "44000",
+		"bitwidth": "16",
+		"x": 230,
+		"y": 500,
+		"wires": [
+			[
+				"60438bc3.859c64"
+			],
+			[]
+		]
+	},
+	{
+		"id": "b350010b.48a4a",
+		"type": "wav-headers",
+		"z": "3bc0be6c.333b82",
+		"name": "",
+		"action": "get",
+		"channels": 1,
+		"samplerate": 22050,
+		"bitwidth": 16,
+		"x": 250,
+		"y": 400,
+		"wires": [
+			[],
+			[
+				"bed9f827.939b08"
+			]
+		]
+	},
+	{
+		"id": "bed9f827.939b08",
+		"type": "debug",
+		"z": "3bc0be6c.333b82",
+		"name": "",
+		"active": false,
+		"tosidebar": true,
+		"console": false,
+		"tostatus": false,
+		"complete": "true",
+		"targetType": "full",
+		"statusVal": "",
+		"statusType": "auto",
+		"x": 470,
+		"y": 400,
+		"wires": []
+	},
+	{
+		"id": "74a4c3fd.82a7cc",
+		"type": "function",
+		"z": "3bc0be6c.333b82",
+		"name": "store in flow",
+		"func": "\nlet mm = msg.payload.results[0].alternatives[0].transcript.toString()\n\nif(mm.indexOf('fan') != -1)\n    flow.set('fan', \"1\")\nelse flow.set('fan', \"0\")\n\nif(mm.indexOf('YouTube') != -1)\n    flow.set('tube', \"1\")\nelse flow.set('tube', \"0\")\n\nif(mm.indexOf('geo') != -1)\n    flow.set('jio', \"1\")\nelse flow.set('jio', \"0\")\n\nif(mm.indexOf('node') != -1)\n    flow.set('pi', \"1\")\nelse flow.set('pi', \"0\")\n\nif(mm.indexOf('on') != -1)\n    flow.set('s', \"1\")\nelse if(mm.indexOf('off') != -1)\n    flow.set('s', \"0\")\n\nreturn {}",
+		"outputs": 1,
+		"noerr": 0,
+		"initialize": "",
+		"finalize": "",
+		"x": 780,
+		"y": 620,
+		"wires": [
+			[
+				"a342c1c3.6c214",
+				"728df2d.8c2d60c",
+				"da443b5e.799bc8",
+				"68157380.c04eec"
+			]
+		]
+	},
+	{
+		"id": "a342c1c3.6c214",
+		"type": "function",
+		"z": "3bc0be6c.333b82",
+		"name": "fan",
+		"func": "\nif(flow.get('fan') == \"1\"){\n    return {payload : flow.get('s')}\n} \n",
+		"outputs": 1,
+		"noerr": 0,
+		"initialize": "",
+		"finalize": "",
+		"x": 1050,
+		"y": 540,
+		"wires": [
+			[
+				"377e3cb8.685a04"
+			]
+		]
+	},
+	{
+		"id": "728df2d.8c2d60c",
+		"type": "function",
+		"z": "3bc0be6c.333b82",
+		"name": "tube",
+		"func": "\nif(flow.get('tube') == \"1\"){\n    return {payload : flow.get('s')}\n} \n",
+		"outputs": 1,
+		"noerr": 0,
+		"initialize": "",
+		"finalize": "",
+		"x": 1050,
+		"y": 600,
+		"wires": [
+			[
+				"40a8f851.7e1a58"
+			]
+		]
+	},
+	{
+		"id": "da443b5e.799bc8",
+		"type": "function",
+		"z": "3bc0be6c.333b82",
+		"name": "jio",
+		"func": "\nif(flow.get('jio') == \"1\"){\n    return {payload : flow.get('s')}\n} \n",
+		"outputs": 1,
+		"noerr": 0,
+		"initialize": "",
+		"finalize": "",
+		"x": 1050,
+		"y": 660,
+		"wires": [
+			[
+				"36bbaa83.a3ef86"
+			]
+		]
+	},
+	{
+		"id": "68157380.c04eec",
+		"type": "function",
+		"z": "3bc0be6c.333b82",
+		"name": "pi",
+		"func": "\nif(flow.get('pi') == \"1\"){\n    return {payload : flow.get('s')}\n} \n",
+		"outputs": 1,
+		"noerr": 0,
+		"initialize": "",
+		"finalize": "",
+		"x": 1050,
+		"y": 720,
+		"wires": [
+			[
+				"e0a39d2d.81465"
+			]
+		]
+	},
+	{
+		"id": "25787ea2.84c0e2",
+		"type": "ui_text",
+		"z": "3bc0be6c.333b82",
+		"group": "39e30d3f.1ca9c2",
+		"order": 1,
+		"width": 0,
+		"height": 0,
+		"name": "",
+		"label": "Result: ",
+		"format": "{{msg.payload.results[0].alternatives[0].transcript}}",
+		"layout": "row-spread",
+		"x": 640,
+		"y": 720,
+		"wires": []
+	},
+	{
+		"id": "5fd935d1.7300fc",
+		"type": "comment",
+		"z": "3bc0be6c.333b82",
+		"name": "Voice control Mozilla Deepspeech Model",
+		"info": "",
+		"x": 620,
+		"y": 140,
+		"wires": []
+	}
+]
