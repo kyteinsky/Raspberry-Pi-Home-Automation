@@ -1,10 +1,11 @@
 # Raspberry Pi -- Home Automation
 
-## Simple project focussed on automating home switches using a robust and virtually no code requiring framework (sandbox environment) of Node RED build on Node.js
-## We (my brother and myself) built this project on Raspberry Pi 4B (1GB RAM) and used Node RED on it.
+### Simple project focussed on automating home switches using a robust and virtually no code requiring framework (sandbox environment) of Node RED build on Node.js
+### We (my brother and myself) built this project on Raspberry Pi 4B (1GB RAM) and used Node RED on it.
+
+
 ### Screenshots in "images" folder
 
-##
 ##
 
 ### Safety first
@@ -17,7 +18,6 @@ crontab -e
 */2 * * * * bash <path to script>/temp_check.sh
 ```
 
-##
 ##
 
 ### Node RED setup
@@ -37,14 +37,12 @@ The flows are stored in json format. You just need to import them and get going 
 - And lastly modify the flows to fit your requirements.
 
 ##
-##
 
 ### Hardware required (used by me), use your favourite ones
 - One relay board (4 in 1)
 - Audio output like analog speakers with external amplification
 - and raspi of course.
 
-##
 ##
 
 ### Credits
@@ -53,14 +51,12 @@ The flows are stored in json format. You just need to import them and get going 
 - And the rest of the Open Source Community supporting Node RED.
 
 ##
-##
 
 ### Note: 
 ### - Node.js 10 is used with the latest Node RED by modifying the Node RED install script that installed the latest version of Node js and removing the previous versions. 
 ### - Installed bluez and pulseaudio on the Raspbian Buster Lite (for no DE adn more efficiency), and set the audio profile to A2DP sink. You can find online tutorials to do so.
 ### - And be SURE to UPDATE THE PATHS FOR FILES!
 
-##
 ##
 
 ## --- THAT'S IT FROM OUR SIDE ---
