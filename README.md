@@ -48,6 +48,7 @@ The flows are stored in json format. You just need to import them and get going 
 ### Credits
 - **[Bluetooth automatic pairing and trusting - Circuit Digest article](https://circuitdigest.com/microcontroller-projects/diy-raspberry-pi-bluetooth-speaker)**
 - You can use **node-red-contrib-speakerpi** node instead of what is used in flows (node-red-contrib-speaker), Olaf Hahn has updated his repo for speakerpi to support the new Node.js modules and fixed some UUID problem (**[GitHub Issue](https://github.com/O-Hahn/node-red-contrib-speakerpi/issues/9)**)
+- My brother Aayush Raj
 - And the rest of the Open Source Community supporting Node RED.
 
 ##
@@ -59,4 +60,18 @@ The flows are stored in json format. You just need to import them and get going 
 
 ##
 
-## --- THAT'S IT FROM OUR SIDE ---
+### Screenshot of the Control Frontend
+<img src="images/dashboard_home.png" height="433px" width="222px" />
+
+### Screenshot of the Flows
+
+The bluetooth flow:
+<img src="images/bluetooth_flow.png" width="100%" />
+
+The control flow:
+<img src="images/control_flow.png" width="100%" />
+
+The passthrough flow:
+<img src="images/passthrough_flow.png" width="100%" />
+
+<p align="center"> :: THAT'S IT FROM OUR SIDE :: </p>
